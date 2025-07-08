@@ -1,8 +1,12 @@
 # Summary
 
+## Getting started
+
+* [What is Omni](getting-started/what-is-omni.md)
+* [Quickstart](getting-started/quickstart.md)
+
 ## Installation and Setup
 
-* [Getting Started](getting-started/getting_started.md)
 * [How to Install talosctl](Installation-and-setup/how-to-install-talosctl.md)
 * [Install and Configure omnictl](Installation-and-setup/install-and-configure-omnictl.md)
 * [Install Talos Linux Extensions](Installation-and-setup/install-talos-linux-extensions.md)
