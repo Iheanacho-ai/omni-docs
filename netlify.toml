@@ -42,12 +42,33 @@ to = "https://docs.siderolabs.com/omni/getting-started/create-a-cluster"
 status = 301
 force = true
 
-# ---- Infrastructure & Extensions ----
+
+# ---- Self-Hosted ----
 [[redirects]]
-from = "/tutorials/install-airgapped-omni"
-to = "https://docs.siderolabs.com/omni/infrastructure-and-extensions/install-airgapped-omni"
+from = "/how-to-guides/self_hosted"
+to = "https://docs.siderolabs.com/omni/self-hosted/omni-deployment-options"
 status = 301
 force = true
+
+[[redirects]]
+from = "/how-to-guides/self_hosted/index"
+to = "https://docs.siderolabs.com/omni/self-hosted/run-omni-on-prem"
+status = 301
+force = true
+
+[[redirects]]
+from = "/how-to-guides/self_hosted/how-to-back-up-on-prem-omni-db"
+to = "https://docs.siderolabs.com/omni/self-hosted/how-to-back-up-on-prem-omni-db"
+status = 301
+force = true
+
+[[redirects]]
+from = "/tutorials/install-airgapped-omni"
+to = "https://docs.siderolabs.com/omni/self-hosted/run-airgapped-omni"
+status = 301
+force = true
+
+# ---- Infrastructure & Extensions ----
 
 [[redirects]]
 from = "/explanation/infrastructure-providers"
@@ -64,37 +85,6 @@ force = true
 [[redirects]]
 from = "/how-to-guides/install-talos-linux-extensions"
 to = "https://docs.siderolabs.com/omni/infrastructure-and-extensions/install-talos-linux-extensions"
-status = 301
-force = true
-
-# Self-Hosted (submenu)
-[[redirects]]
-from = "/how-to-guides/self_hosted"
-to = "https://docs.siderolabs.com/omni/infrastructure-and-extensions/self-hosted/overview"
-status = 301
-force = true
-
-[[redirects]]
-from = "/how-to-guides/self_hosted/index"
-to = "https://docs.siderolabs.com/omni/infrastructure-and-extensions/self-hosted/deploy-omni-on-prem"
-status = 301
-force = true
-
-[[redirects]]
-from = "/how-to-guides/self_hosted/_index"
-to = "https://docs.siderolabs.com/omni/infrastructure-and-extensions/self-hosted/configure-keycloak-for-omni/configure-keycloak-for-omni"
-status = 301
-force = true
-
-[[redirects]]
-from = "/how-to-guides/self_hosted/how-to-back-up-on-prem-omni-db"
-to = "https://docs.siderolabs.com/omni/infrastructure-and-extensions/self-hosted/how-to-back-up-on-prem-omni-db"
-status = 301
-force = true
-
-[[redirects]]
-from = "/how-to-guides/self_hosted/expose-omni-with-nginx-https"
-to = "https://docs.siderolabs.com/omni/infrastructure-and-extensions/self-hosted/expose-omni-with-nginx-https"
 status = 301
 force = true
 
@@ -210,6 +200,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/how-to-guides/self_hosted/expose-omni-with-nginx-https"
+to = "https://docs.siderolabs.com/omni/cluster-management/expose-omni-with-nginx-https"
+status = 301
+force = true
+
+[[redirects]]
 from = "/how-to-guides/etcd-backups"
 to = "https://docs.siderolabs.com/omni/cluster-management/etcd-backups"
 status = 301
@@ -249,6 +245,12 @@ force = true
 [[redirects]]
 from = "/how-to-guides/rotate-siderolink-join-token"
 to = "https://docs.siderolabs.com/omni/security-and-authentication/rotate-siderolink-join-token/rotate-siderolink-join-token"
+status = 301
+force = true
+
+[[redirects]]
+from = "/how-to-guides/self_hosted/_index"
+to = "https://docs.siderolabs.com/omni/security-and-authentication/configure-keycloak-for-omni"
 status = 301
 force = true
 
